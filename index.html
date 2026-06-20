@@ -90,6 +90,24 @@ grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:15px;
 }
 
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:15px;
+}
+
+.gallery img{
+width:100%;
+border-radius:12px;
+cursor:pointer;
+transition:transform 0.3s ease;
+display:block;
+}
+
+.gallery img:hover{
+transform:scale(1.03);
+}
+  
 .highlight{
 background:#fffaf2;
 padding:25px;
@@ -177,8 +195,8 @@ grid-template-columns:1fr;
 
 <div class="hero-content">
 
-<h1>Wohnung zum Verkauf</h1>
-
+<h1>Komplett renovierte Wohnung in Porto Cristo</h1>
+  
 <p>Porto Cristo · Mallorca</p>
 <p>69 m² · 3 Zimmer · Balkon</p>
 
@@ -235,25 +253,24 @@ Zusätzlichen Komfort bietet ein separater Mehrzweckraum, der ideal als Stauraum
 
 <h2>Bilder</h2>
 
-<div class="grid">
+<div class="gallery">
 
-<img src="images/-wohnen1.jpg" style="width:100%;border-radius:10px;">
-<img src="images/-wohnen3.jpg" style="width:100%;border-radius:10px;">
-<img src="images/-kueche3.jpg" style="width:100%;border-radius:10px;">
-<img src="images/-kueche2.jpg" style="width:100%;border-radius:10px;">
-<img src="images/-schlafen.jpg" style="width:100%;border-radius:10px;">
-<img src="images/-bad1.jpg" style="width:100%;border-radius:10px;">
-<img src="images/-bad2.jpg" style="width:100%;border-radius:10px;">
-<img src="images/-patio1.jpg" style="width:100%;border-radius:10px;">
-<img src="images/-patio3.jpeg" style="width:100%;border-radius:10px;">
-<img src="images/-essen1.jpg" style="width:100%;border-radius:10px;">
-<img src="images/-essen2.jpg" style="width:100%;border-radius:10px;">
-<img src="images/-trastero.jpg" style="width:100%;border-radius:10px;">
-<img src="images/-trastero2.jpg" style="width:100%;border-radius:10px;">
-<img src="images/-balcon.jpg" style="width:100%;border-radius:10px;">
-<img src="images/-schlafen2.jpg" style="width:100%;border-radius:10px;">
+<img src="images/-wohnen1.jpg" alt="Wohnzimmer">
+<img src="images/-wohnen3.jpg" alt="Wohnbereich">
+<img src="images/-kueche3.jpg" alt="Küche">
+<img src="images/-kueche2.jpg" alt="Offene Küche">
+<img src="images/-schlafen.jpg" alt="Schlafzimmer">
+<img src="images/-bad1.jpg" alt="Badezimmer">
+<img src="images/-bad2.jpg" alt="Modernes Badezimmer">
+<img src="images/-patio1.jpg" alt="Patio">
+<img src="images/-patio3.jpeg" alt="Patio Bereich">
+<img src="images/-essen1.jpg" alt="Essbereich">
+<img src="images/-essen2.jpg" alt="Wohn- und Essbereich">
+<img src="images/-trastero.jpg" alt="Mehrzweckraum">
+<img src="images/-trastero2.jpg" alt="Abstellraum">
+<img src="images/-balcon.jpg" alt="Balkon">
+<img src="images/-schlafen2.jpg" alt="Schlafzimmer">
 
-  
 </div>
 
 </div>
